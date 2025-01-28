@@ -1,0 +1,21 @@
+.header-container {
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header__col {
+    display: flex;
+}
+
+.search__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 64px;
+}
+
+.login__icon {
+    width: 24px;
+    height: 24px;
+}

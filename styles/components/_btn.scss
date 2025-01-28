@@ -1,0 +1,25 @@
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #BAE249;
+    font-weight: 700;
+    position: relative;
+}
+
+.btn--hero::after {
+        content: url(../../img/btn-arrow.png);
+        position: absolute;
+        top: 4px;
+        right: -45px;
+    }
+
+.btn--hero:hover::before {
+        content: '';
+        position: absolute;
+        width: 174px;
+        height: 27px;
+        border: 1px solid #83A440;
+        top: -4px;
+        left: -3px;
+    }
