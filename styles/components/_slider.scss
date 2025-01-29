@@ -62,21 +62,6 @@
       }
 }
 
-.btn--slider {
-    padding: 11px 29px;
-    border: 1px solid;
-    font-weight: 400;
-
-    &:hover {
-        background-color: #BAE249;
-        color: #0B1919;
-    }
-
-    &::after {
-        content: '';
-    }
-}
-
 .slider__arrows {
     margin-top: 26px;
     margin-bottom: 57px;

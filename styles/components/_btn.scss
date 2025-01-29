@@ -23,3 +23,59 @@
         top: -4px;
         left: -3px;
     }
+
+.btn--new {
+    margin-bottom: 24px;
+    color: #0B1919;
+    margin-top: 65px;
+    margin-left: -7px;
+}
+
+.btn--new:hover::before {
+    content: '';
+    position: absolute;
+    width: 174px;
+    height: 27px;
+    border: 1px solid #0B1919;
+    top: -4px;
+    left: -3px;
+}
+
+.btn--new::after {
+    content: url(../../img/black-arrow.png);
+    position: absolute;
+    top: 4px;
+    right: -45px;
+}
+
+.btn--hero::after {
+    content: url(../../img/btn-arrow.png);
+    position: absolute;
+    top: 4px;
+    right: -45px;
+}
+
+.btn--slider {
+    padding: 11px 29px;
+    border: 1px solid;
+    font-weight: 400;
+
+    &:hover {
+        background-color: #BAE249;
+        color: #0B1919;
+    }
+
+    &::after {
+        content: '';
+    }
+}
+
+.btn--form {
+    color: #0B1919;
+    background: #BAE249;
+
+    &:hover {
+        background: none;
+        color: #BAE249;
+    }
+}
